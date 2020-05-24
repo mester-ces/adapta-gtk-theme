@@ -2,7 +2,7 @@
 # -----------------------------------------------------------
 AC_DEFUN([ADAPTA_COLOR_SCHEME], [
 
-    selection_default="`grep 'Blue300' ./gtk/sass/common/_colors.scss | \
+    selection_default="`grep 'Cyan3000' ./gtk/sass/common/_colors.scss | \
                         cut -d' ' -f3`"
     accent_default="`grep 'Teal300' ./gtk/sass/common/_colors.scss | \
                      cut -d' ' -f3`"
@@ -16,7 +16,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-selection_color],
             [Primary color for selected-items \
-             (Default: #00BCD4 (Cyan500))]
+             (Default: #06DBF6 (Cyan500))]
         )],
         [SELECTION="$withval"],
         [SELECTION=$selection_default]
@@ -40,7 +40,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-suggestion_color],
             [Secondary color for 'suggested' buttons \
-             (Default: #009688 (Teal500))]
+             (Default: #04B6A6 (Teal500))]
         )],
         [SUGGESTION="$withval"],
         [SUGGESTION=$suggestion_default]
@@ -52,7 +52,7 @@ AC_DEFUN([ADAPTA_COLOR_SCHEME], [
         [AS_HELP_STRING(
             [--with-destruction_color],
             [Tertiary color for 'destructive' buttons \
-             (Default: #FF5252 (RedA200))]
+             (Default: #FB3232  (RedA200))]
         )],
         [DESTRUCTION="$withval"],
         [DESTRUCTION=$destruction_default]
