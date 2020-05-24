@@ -2,7 +2,7 @@
 # -----------------------------------------------------------
 AC_DEFUN([ADAPTA_COLOR_SCHEME], [
 
-    selection_default="`grep 'Cyan500' ./gtk/sass/common/_colors.scss | \
+    selection_default="`grep 'Blue300' ./gtk/sass/common/_colors.scss | \
                         cut -d' ' -f3`"
     accent_default="`grep 'Teal300' ./gtk/sass/common/_colors.scss | \
                      cut -d' ' -f3`"
