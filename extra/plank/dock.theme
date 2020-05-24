@@ -1,11 +1,11 @@
 # Adapta Plank Theme
-# May 25, 2016 ver.0.1
+# May 24, 2020 ver.0.2
 
 [PlankTheme]
 #The roundness of the top corners.
 TopRoundness=2
 #The roundness of the bottom corners.
-BottomRoundness=0
+BottomRoundness=1
 #The thickness (in pixels) of lines drawn.
 LineWidth=1
 #The color (RGBA) of the outer stroke.
